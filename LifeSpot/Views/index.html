@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>LifeSpot</title>
+    <link rel="stylesheet" type="text/css" href="../Static/CSS/index.css">
 </head>
 <body>
-    <p>Приветствуем на LifeSpot!</p>
+    <header>
+        <h1>LifeSpot — прямые трансляции с улиц</h1>
+        <form action="/" method="get" class="searcj-form">
+            <div class="searcj-container">
+                <input type="text" name="searcj-querry" value="Поиск не работает..." class="searcj-querry" />
+                <button type="submit" class="searcj-button"></button>
+            </div>
+        </form>
+        <p>Kраткое описание того, что пользователь может делать на сайте: ничего.</p>
+    </header>
+    <div class="bordered">
+        <!--Нью-Йорк-->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/srlpC5tmhYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Эта трансляция недоступна.</h3>
+        </div>
+        <!--Санкт-Петербург-->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wCcMcaiRbhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Эта трансляция недоступна.</h3>
+        </div>
+        <!--Лондон-->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JplMzss6_YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Эта трансляция недоступна. Но есть видео экскурсии на автобусе.</h3>
+        </div>
+    </div>
+    <aside id="sidebar">
+        <div class="navbar">
+            <a href="/"><p>Все трансляции</p></a>
+            <a href="/"><p>О проекте</p></a>
+        </div>
+    </aside>
+    <footer>
+        <p>LifeSpot - все видео недоступны</p>
+        <p>Связаться с нами: верёвкой</p>
+    </footer>
 </body>
 </html>
